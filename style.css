@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation-bar{
+    background-color:#323232;
+    
+}
+
+.nav-item {
+    padding: 0px;
+    margin-right: 2rem;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: red;
+    font-size: 1.5rem;
+}
+
+#header {
+    
+    background-image: url(clint-patterson-ulftbH1sA0k-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.main-heading {
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 7rem;
+    font-family: 'ZCOOL KuaiLe', cursive;
+     position: absolute;
+     top: 180px;
+     left: 80px;
+    
+     
+}
+.main-heading:hover {
+    color: red;
+}
+
+h1 span {
+    color: red;
+}
+h1 span:hover{
+    font-size:7rem ;
+    color: white;
+}
+p span {
+    color: red;
+}
+p span:hover{
+    color: white;
+}
+.main-paragraph{
+    color: white;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    position: absolute;
+    font-size: 2rem;
+    top: 400px;
+    left: 80px;
+}
+.btn {
+    width: 120px;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    background:linear-gradient(to right,red,rgb(184, 55, 55));
+    border-radius: 6px;
+   cursor: pointer;
+   transition: width 0.5s;
+   position: absolute;
+   top: 480px;
+   left: 80px;
+
+}
+.btn img {
+    width: 30px;
+    display: none;
+}
+.btn:hover img{
+display: block;
+}
+
+button:hover {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* about-part */
+
+#aboutme {
+    width: 100%;
+    background-size: cover;
+    margin-top: 60px;
+   
+}
+.flex1 {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h3 {
+    
+    text-align: left;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Hina Mincho', serif;
+    font-weight: bold;
+}
+h3:hover {
+    color: #B42B51;
+}
+   
+ .about-paragraph{
+           
+          font-size: 1.5rem;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-weight: 700;
+          color: #B42B51;
+          line-height: 2.5rem;
+          position: relative;
+          bottom: 50px; 
+          display: flex;  
+          flex-direction: column;  
+          
+ }  
+
+.profile {
+    width: 50%;
+   margin-left: 20px;
+  position: relative;
+  bottom: 50px;
+}
+
+
+/* skill-part */
+
+#skills{
+    
+    width: 100%;
+    color: white;
+    background:linear-gradient(to right,red,rgb(184, 55, 55));
+    
+}
+#skills:hover{
+    transition: 3s;
+}
+h4 {
+    font-family: 'Hina Mincho', serif; 
+    font-size: 1.5rem;
+}
+h4:hover{
+    color: black;
+}
+
+.skill-header {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Hina Mincho', serif;
+    color: white;
+    font-weight: 900;
+   padding-top: 2rem;
+}
+.skill-header:hover{
+    color: black;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.skill2 {
+   
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+      margin-top: 100px ;
+      margin-bottom: 100px;     
+}
+.fab {
+    color: white;
+    
+}
+.fab:hover{
+    color: black;
+}
+   /* footer-contact */
+#contact{
+    
+    width: 100%;
+    background-color: white;
+    text-align: center;   
+   
+}
+
+.icon{
+     padding: 20px;
+    color: black;
+    
+}
+.booter-content{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+    font-weight: 800;
+    color: black;
+}
+.btn1 {
+    display: inline-block;
+    text-align: center;
+    margin: 50px 10px;
+    margin-bottom: 20px;
+    width: 120px;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+    color: black;
+    border-radius: 6px;
+    background:cyan;
+   cursor: pointer;  
+}
+.btn1:hover{
+    background:linear-gradient(to right,red,rgb(184, 55, 55));
+    color: white;
+}
+.cv-text {
+    color: black;
+    font-weight: 600;
+    padding-inline-end: 10px;
+}
+#btn2 {
+    background:cyan;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+}
+#btn2:hover{
+    background:linear-gradient(to right,red,rgb(184, 55, 55));
+    color: white;
+}
+.booter-copy {
+     text-align: center;
+    font-size: 1rem;
+    padding-top: 50px;
+    font-weight: 600;
+    color: black;
+}
+
+
+/* popup css */
+ .popup{
+     background: white;
+     width: 100%;
+     
+     position: absolute;
+     top: 300%;
+     display: none;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+    
+ }
+ .popup-content{
+     height: 70vh;
+     width: 500px;
+     background: linear-gradient(to right,red,rgb(184, 55, 55));
+    
+     border-radius: 5px;
+     margin: 10px auto;
+     display: none;
+     flex-direction: column;
+     position: relative;
+     
+     z-index: 2;
+     
+ }
+ input {
+     margin: 20px auto;
+     display: block;
+     width: 60%;
+     padding: 10px;
+     border: 1px solid gray;
+ }
+.pop-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: 'Hina Mincho', serif; 
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+/*  MediaQuery */
+@media screen and (max-width: 1000px)
+ {
+     
+#header {
+    height: 60vh;  
+}
+    .main-heading {
+        font-size: 3rem;
+        line-height: 3rem;
+         position: absolute;
+         left: 10px;
+         top: 100px;
+            
+    }
+    h1 span:hover{
+        font-size:5rem ;
+        
+    }
+    .main-paragraph{
+       
+        position: absolute;
+        left: 10px;
+        top: 200px;
+        font-size: 1.5rem;
+        
+      
+    }
+    .btn {
+        padding: 5px;
+        text-align: center;
+        width:120px ;
+        height: 40px;
+       position: absolute;
+       top: 250px;
+       left: 10px;
+    
+    }
+    .flex1 {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .profile {
+        width: 80%;
+    }
+      
+    h3 {
+    
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .popup-content{
+        width: 300px; 
+    }
+    .about-paragraph{
+           padding: 20px;
+        font-size: 1rem;
+         line-height: 1.5rem;   
+}  
+   
+}
+
+
