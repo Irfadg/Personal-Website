@@ -286,7 +286,7 @@ h4:hover{
  .popup-content{
      height: 70vh;
      width: 500px;
-     background: linear-gradient(to right,red,rgb(184, 55, 55));
+     background: navy;
     
      border-radius: 5px;
      margin: 10px auto;
